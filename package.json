@@ -1,0 +1,18 @@
+{
+  "name": "employee-database",
+  "version": "1.0.0",
+  "description": "Employee Payroll Database System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "@supabase/supabase-js": "^2.38.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
